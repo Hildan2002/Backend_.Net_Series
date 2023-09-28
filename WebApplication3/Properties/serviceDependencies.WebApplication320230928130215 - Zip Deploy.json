@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/bismillahapi/apis/bismillah",
+      "type": "apis.azure"
+    },
+    "mssql3": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/WebApplication320230928130215/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsAzureCS_8AF8C65ED8",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/bismillah/databases/tugasBio1DB",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:AzureCS",
+      "dynamicId": null
+    }
+  }
+}

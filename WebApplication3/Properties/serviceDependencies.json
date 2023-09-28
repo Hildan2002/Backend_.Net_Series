@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:Default",
+      "dynamicId": null
+    },
+    "apis1": {
+      "type": "apis"
+    },
+    "mssql3": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:AzureCS",
+      "dynamicId": null
+    }
+  }
+}
