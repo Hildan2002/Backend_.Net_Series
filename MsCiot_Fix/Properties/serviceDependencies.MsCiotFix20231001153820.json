@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/bismillahapi/apis/bismillah",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/MsCiotFix20231001153820/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsAzureCS_F26239C7CF",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/bismillah/databases/msciott",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:AzureCS",
+      "dynamicId": null
+    }
+  }
+}
