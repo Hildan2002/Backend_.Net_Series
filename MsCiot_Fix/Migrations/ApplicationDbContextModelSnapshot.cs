@@ -64,9 +64,6 @@ namespace MsCiot_Fix.Migrations
                     b.Property<int>("Height")
                         .HasColumnType("int");
 
-                    b.Property<int>("Temperature")
-                        .HasColumnType("int");
-
                     b.Property<int>("Temprature")
                         .HasColumnType("int");
 

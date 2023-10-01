@@ -11,7 +11,6 @@ namespace MsCiot_Fix.Models
         public int Fat { get; set; }
         public int Temprature { get; set; }
         public int BloodPressure { get; set; }
-        public int Temperature { get; set; }
 
         public DateTime DateTime { get; set; }
     }

@@ -12,7 +12,7 @@ using MsCiot_Fix.Db;
 namespace MsCiot_Fix.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231001081631_init")]
+    [Migration("20231001092117_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -65,9 +65,6 @@ namespace MsCiot_Fix.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("Height")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Temperature")
                         .HasColumnType("int");
 
                     b.Property<int>("Temprature")

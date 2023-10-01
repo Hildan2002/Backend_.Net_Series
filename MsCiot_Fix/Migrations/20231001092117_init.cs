@@ -22,7 +22,6 @@ namespace MsCiot_Fix.Migrations
                     Fat = table.Column<int>(type: "int", nullable: false),
                     Temprature = table.Column<int>(type: "int", nullable: false),
                     BloodPressure = table.Column<int>(type: "int", nullable: false),
-                    Temperature = table.Column<int>(type: "int", nullable: false),
                     DateTime = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
